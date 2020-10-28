@@ -1,0 +1,122 @@
+body {
+    background: #060606;
+}
+
+#main {
+    position: relative;
+    left: -15px;
+}
+
+.bungie-logo {
+    position: relative;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#play {
+    position: absolute;
+    right: 200px;
+    background-color: goldenrod;
+    border-color: gold;
+    color: wheat;
+    border-radius: 0px;
+}
+
+.navbar-nav{
+    display: inline;
+}
+
+#learn {
+    position: absolute;
+    left: 330px;
+    top: 335px;
+    background-color: goldenrod;
+    border-color: gold;
+    color: wheat;
+    border-radius: 0px;
+    width: 150px;
+}
+
+.container {
+    position: absolute;
+}
+
+#title {
+    width: 410.67px;
+    height: 83px;
+    position: absolute;
+    bottom: 375px;
+    left: 200px;
+}
+
+#title-text {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    bottom: 250px;
+    left: 295px;
+}
+
+#featured {
+    position: absolute;
+    top: 620px;
+    left: 25px;
+}
+
+.featured-stories {
+    position: relative;
+    display: grid;
+    grid-template-columns: 700px 300px 300px;
+    grid-template-rows: 200px 200px;
+    width: 1000px;
+    top: 650px;
+    gap: 15px;
+    left: 25px;
+}
+
+#season {
+    background-image: url(https://www.bungie.net/pubassets/pkgs/143/143174/FrontpageBanner_01.jpg?cv=3983621215&amp;av=237140785);
+    width: 700px;
+    height: 400px;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#festival {
+    background-image: url(https://www.bungie.net/pubassets/pkgs/142/142549/FotL2020_HomepageBanner_1920x590.jpg?cv=3983621215&amp;av=237140785);
+    width: 250px;
+    height: 400px;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#stasis {
+    position: relative;
+    left: -50px;
+    background-image: url(https://www.bungie.net/pubassets/pkgs/140/140256/Stasis_trailer_1-1.jpg?cv=3983621215&amp;av=237140785);
+    width: 250px;
+    height: 195px;
+    background-size: 275px;
+    background-position: 50% 20%;
+}
+
+#play-free {
+    position: relative;
+    left: 980px;
+    top: -5px;
+    background-image: url(https://www.bungie.net/pubassets/pkgs/137/137656/s11_f2P_header.jpg?cv=3983621215&amp;av=237140785);
+    width: 250px;
+    height: 190px;
+    background-size: 620px;
+    background-position: 50% 0%;
+}
+

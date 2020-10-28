@@ -18,4 +18,8 @@ open index.html
 
 ## Usage
 
-Website does not work. Purpose is to display a website using frameworks.
+Website does not work. Purpose is to display a website using html, css, and frameworks. Goal is to make website look like `bungie.net` using tools listed.
+
+### Notes
+
+Had some trouble getting background img to work properly within grid for a bit. Used bootstrap nav bar, badge, and btn for some styling.
